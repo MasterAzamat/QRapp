@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/delete_group">
+        <item
+            android:id="@+id/delete_all"
+            android:orderInCategory="100"
+            android:icon="@drawable/dalete_all"
+            android:title="@string/action_settings"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/delete_garbich"
+            android:icon="@drawable/garbich"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="always" />
+    </group>
+
+</menu>

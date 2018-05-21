@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.example.azaat.qrapp.Login"
+    android:background="@drawable/shape_for_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <EditText
+            android:textColorHint="#ffffff"
+            android:drawableLeft="@drawable/user_ig"
+            android:drawablePadding="20dp"
+            android:drawableTint="#949494"
+            android:hint="Email или номер телефона"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:textColorHint="#ffffff"
+            android:drawableLeft="@drawable/user_pass"
+            android:drawableTint="#949494"
+            android:drawablePadding="20dp"
+            android:hint="Пароль"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/enter_login"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Войти"
+            android:background="@drawable/shape_for_login_button"
+            android:layout_margin="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don`t have an account?"
+                android:textColor="#ffffff"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/sign_up"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+
+
+</LinearLayout>

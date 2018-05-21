@@ -1,0 +1,32 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.azaat.qrapp.BlankFragment">
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/zx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></me.dm7.barcodescanner.zxing.ZXingScannerView
+        >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/title"
+        android:text="title"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:visibility="gone"
+        android:background="@drawable/shape_for_list"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
